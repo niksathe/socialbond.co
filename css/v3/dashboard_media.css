@@ -1,0 +1,3054 @@
+@media (min-width: 1200px) {
+    /* ===================== Packages Page ===================== */
+    .pricing_cont, .sin_prc_plan {
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        position: relative;
+
+    }
+    .pricing_cont.special_plan {
+        -webkit-transform: scale(1.12);
+        -moz-transform: scale(1.12);
+        -o-transform: scale(1.12);
+        transform: scale(1.12);
+        z-index: 5;
+    }
+    .pricing_cont:hover {
+        -webkit-transform: scale(1.12);
+        -moz-transform: scale(1.12);
+        -o-transform: scale(1.12);
+        transform: scale(1.12);
+        z-index: 5;
+    }
+    .pricing_cont.special_plan .sin_prc_plan {
+        background-color: #e5feff;
+    }
+    .pricing_cont:hover .sin_prc_plan {
+        background-color: #e5fdfe;
+    }
+}
+@media (min-width: 992px) and (max-width: 1420px) {
+    .dashboard_body {
+        padding-top: 130px;
+    }
+    /* ===================== Left Menu Sidebar ===================== */
+    .sidebar {
+        top: 129px;
+        height: calc(100vh - 128px);
+    }
+    .mainbar {
+        margin-left: 0;
+    }
+    .mainbar .page-head {
+        top: 80px;
+    }
+    /* ===================== Social Profile Page ===================== */
+    .sprf_sdpanel {
+        top: 129px;
+        height: calc(100vh - 129px);
+    }
+}
+@media (min-width: 768px) and (max-width: 1420px) {
+    /* ===================== Left Menu Sidebar ===================== */
+    .mainbar .page-head {
+        position: fixed;
+        right: 0;
+        left: 0;
+        padding: 10px 20px;
+        border-bottom: 1px solid #d1d3d4;
+        z-index: 10;
+    }
+    .sdbar_tgbtn {
+        float: left;
+        width: 28px;
+        height: 28px;
+        font-size: 19px;
+        border: 1px solid #d1d3d4;
+        text-align: center;
+        margin-right: 10px;
+        cursor: pointer;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+    .sdbar_tgbtn.active {color: #fff}
+    .mainbar_adv .sdbar_tgbtn.active, .adv_body .sdbar_tgbtn.active {background-color: #39b7bf;}
+    .mainbar_inf .sdbar_tgbtn.active, .inf_body .sdbar_tgbtn.active {background-color: #ee307c;}
+
+    .sdbar_tgbtn:before {
+        content: '\f0c9';
+        font-family: FontAwesome;
+        display: table-cell;
+        width: 26px;
+        height: 26px;
+        vertical-align: middle;
+    }
+    .sdbar_tgbtn.active:before {}
+
+    .sidebar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: 999;
+        overflow: auto;
+        border-right:  1px solid #d1d3d4;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    .sidebar.open {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .mainbar {
+        margin-left: 0;
+        border-left: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .dashboard_body {
+        padding-top: 130;
+    }
+    /* ===================== Left Menu Sidebar ===================== */
+    .sidebar {
+        top: 129px;
+        height: calc(100vh - 128px);
+    }
+    /* ===================== Targeted Search Page ===================== */
+    .tab_cont, .gen_data_cont {
+        padding: 15px;
+    }
+    .row.narrow > div {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .inf_bsc_image {
+        width: 70px;
+        height: 70px;
+        margin-right: 5px;
+    }
+    .inf_bsc_ttle {
+        width: calc(100% - 75px);
+        height: 80px;
+    }
+    .inf_bsc_ttle h4 {
+        height: 80px;
+        font-size: 16px;
+    }
+    .sm_bar {
+        width: 20px;
+    }
+    .sm_bar .bar {
+        width: 10px;
+        left: 5px;
+    }
+    .inf_stat_det li {
+        padding: 4px 0 4px 30px;
+        margin-bottom: 1px;
+        font-size: 13px;
+    }
+    .stat_ico {
+        top: 6px;
+        width: 30px;
+        font-size: 21px;
+    }
+    .stat_txt, .stat_val {
+        float: none;
+        display: block;
+    }
+    .inf_cnnct_btn {
+        width: calc(100% - 65px);
+        padding: 11px 5px;
+        font-size: 13px;
+    }
+    .sin_fopt_btn {
+        width: 30px;
+        background-size: 20px;
+    }
+    /*Add To Influencers List Popup*/
+    #AddToInfList .ppup_box {
+        width: 950px;
+    }
+    /* ===================== Personal Profile Page ===================== */
+    .prs_info_head {
+        font-size: 12px;
+    }
+    .ps_inf_img, .ps_inf_opt {
+        width: 25%;
+    }
+    .ps_inf_det {
+        width: 50%;
+    }
+    .psinfimg {
+        width: 110px;
+        height: 110px;
+    }
+    .usr_prim_data {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .sin_prim_data {
+        font-size: 12px;
+    }
+    .usr_psw_btn {
+        font-size: 11px;
+    }
+    .categ_card_list li {
+        padding: 2px;
+    }
+    .sin_card_ico {
+        width: 63px;
+        height: 63px;
+    }
+    .usr_prf_txarea {
+        height: 84px;
+        padding: 5px;
+        font-size: 11px;
+    }
+    .prf_complete .gdr_sttcs .progress {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .prf_complete .gdr_sttcs .progress .progress-value {
+        font-size: 24px;
+    }
+
+    .sin_potn_svcmpg {
+        padding: 0 5px;
+    }
+    .potn_svcmpg_img {
+        height: 150px;
+        width: 150px;
+    }
+    .potn_svcmpg_info {
+        height: 150px;
+        width: 200px;
+        padding: 0 5px;
+        font-size: 13px;
+    }
+    .svcmpg_info_ttle {
+        max-height: 34px;
+    }
+    .svcmpg_info_desc {
+        margin-bottom: 0;
+        max-height: 52px;
+    }
+    .svcmpg_prc_offr {
+        left: 5px;
+    }
+    .svcmpg_info_price {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .svcmpg_info_offr {
+        width: 25px;
+        height: 25px;
+    }
+    .potn_svcmpg_thumb {
+        width: calc(100% - 350px);
+        height: 150px;
+    }
+    .svcmpg_sm_ico {
+        width: 40px;
+        height: 40px;
+    }
+    .svcmpg_brnd_ico {
+        width: 40px;
+        height: 40px;
+        left: 4px;
+    }
+    .svcmpg_cht_ico {
+        width: 40px;
+        height: 40px;
+        background-size: 25px;
+    }
+    .svcmpg_thmb_img {
+        width: 130px;
+        height: 130px;
+    }
+    .svcmpg_thmb_ttle {
+        font-size: 12px;
+    }
+    /*Public Profile*/
+    .public_prf .psinfimg {
+        width: 140px;
+        height: 140px;
+    }
+    .ps_inf_stprc .stprc_cont {
+        width: 130px;
+        height: 130px;
+        line-height: 124px;
+    }
+    .stprc_cont .lrg_text {
+        font-size: 24px;
+    }
+    .sin_usr_pdata {
+        padding: 14px 10px;
+    }
+    .sin_usr_desc_txt > p {
+        height: 134px;
+        font-size: 14px;
+    }
+    /* ===================== Advertiser Profile Page ===================== */
+    .adver_prof_cont .prs_info_head {
+        min-height: 0;
+    }
+    .adver_prof_cont .prsinf_hd_btn {
+        top: auto;
+    }
+    .adver_prof_cont .sin_card_ico {
+        width: 133px;
+        height: 133px;
+    }
+    /* ===================== My Wish List Page ===================== */
+    .usr_inf_favlikst > li {
+        width: 25%;
+    }
+    .inffav_name {
+        font-size: 14px;
+    }
+    /* ===================== Influencer Marketing Goal Page ===================== */
+    .inf_mrkt_mttle {
+        font-size: 25px;
+    }
+    /* ===================== Social Media Promotion Page ===================== */
+    .step_stitle {
+        font-size: 21px;
+    }
+    .tpc_img {
+        width: 110px;
+        height: 110px;
+        background-size: 95px;
+        opacity: 1;
+    }
+    /* ===================== My Draft List Page ===================== */
+    /*Campaigns Sent Proposals Popup*/
+    #cmpgSntPrpsals .ppup_box {
+        width: 970px;
+    }
+    .sin_snt_prpsal {
+        padding: 15px 7px;
+    }
+    .snt_prpsal_img {
+        width: 55px;
+        height: 55px;
+    }
+    .snt_prpsal_img.send {border: 1px solid #39b7bf;}
+    .snt_prpsal_img.receive {border: 1px solid #ee307c;}
+    .snt_prpsal_info {
+        max-width: calc(100% - 140px);
+        padding: 4px 7px;
+    }
+    .snt_prpsal_name {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 3px;
+    }
+    .snt_prpsal_arrow {
+        height: 55px;
+    }
+    .snt_prpsal.snt_prpsal_txt, .snt_prpsal_txt .snt_txt {
+        height: 55px;
+    }
+    .snt_prpsal_txt p {
+        -webkit-line-clamp: 3;
+        font-size: 14px;
+        max-height: 58px;
+    }
+    .snt_prpsal.snt_prpsal_stts {
+        height: 55px;
+        line-height: 55px;
+        font-size: 14px;
+    }
+    .snt_prpsal.snt_prpsal_opr {
+        height: 55px;
+        padding: 6px 0;
+    }
+    .snt_prpsal_btn {
+        width: 43px;
+        height: 43px;
+        background-size: 25px;
+    }
+    /* ===================== Promote Me Page ===================== */
+    .pshre_prf_thumb {
+        height: 220px;
+    }
+    .embed_widg_thumb {
+        height: 266px;
+    }
+    .prmt_sub_box_body {
+        padding: 10px 15px;
+        font-size: 9px;
+    }
+    .prmt_bdy_cont.pshre_prf_bx {
+        padding: 18px 0;
+    }
+    .prmot_cpy_ipt {
+        height: 26px;
+        padding: 0 5px;
+        font-size: 11px;
+    }
+    .prmt_cpy_btn {
+        margin-top: 10px;
+        font-size: 11px
+    }
+    /* ===================== Completed Campaign ===================== */
+    .cmpg_box_info {
+        width: calc(100% - 190px);
+    }
+    .cmpg_box_cnnt {
+        width: 100px;
+    }
+
+    /* ===================== Packages Page ===================== */
+    .pricing_section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .detail_prc_cont {
+        font-size: 13px;
+        padding-top: 70px;
+        margin: -50px 2px 0 2px;
+    }
+    .prc_plan_ttle {
+        font-size: 17px;
+    }
+    .det_prc_list > li {
+        font-size: 10px;
+    }
+    .det_prc_list > li:not(:nth-last-of-type(1)) {
+        margin-bottom: 10px;
+    }
+    .uptopuser {
+        font-size: 14px;
+    }
+    .prc_feat_vtxt {
+        height: 18px;
+        line-height: 19px;
+        font-size: 9px;
+    }
+    /*Influencer Package Pricing*/
+    .inf_pkg_cont {
+        width: 485px;
+    }
+
+    /* ===================== Packages Page ===================== */
+    .sin_colltxt_part {padding: 15px;}
+    .sin_collb_info {max-width: 270px;}
+    .sin_collb_text {
+        max-width: calc(100% - 270px);
+        font-size: 14px;
+    }
+    .sin_collb_usrname {font-size: 16px;}
+    .sin_collb_msgdate {font-size: 13px}
+    .sin_colltxt_part.send .sin_collb_text {padding-left: 15px;}
+    .sin_colltxt_part.receive .sin_collb_text {padding-right: 15px;}
+
+    /*Selected Collaboration Popup*/
+    #SelectedCollaboration .ppup_box {width: 900px;}
+    /* ===================== Social Profile Page ===================== */
+    .sprf_sdpanel {
+        top: 129px;
+        height: calc(100vh - 129px);
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .mainbar .container {
+        width: 970px;
+    }
+    /* ===================== Targeted Search Page ===================== */
+    .filter_header {
+        padding-bottom: 15px;
+    }
+    .filt_head_ipt {
+        width: 350px;
+    }
+    .sin_det_grid, .sin_det_grid.gdr_chrt_grid {
+        width: 50%;
+    }
+    .sin_det_grid.full {
+        width: 100%;
+    }
+    /* ===================== Advertiser Profile Page ===================== */
+    .adv_prf_bio {
+        margin-bottom: 20px;
+    }
+    .adver_prof_cont .prs_info {
+        height: auto;
+    }
+    /* ===================== Dashboard Page ===================== */
+    .dshbrd_pghead {
+        padding: 25px 15px 15px;
+    }
+    .dshbrd_httle {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    .sin_pgbody_grid.get_strt_rec, .sin_pgbody_grid.inf_mrk_stc, .sin_pgbody_grid.soc_mng_stc,
+    .sin_pgbody_grid.rcnt_ongcamp, .sin_pgbody_grid.rcnt_posted, .sin_pgbody_grid.rcnt_inf_camp {
+        width: 100%;
+    }
+    .sin_pgbody_grid.img_p_grid {
+        width: 33.333333%;
+    }
+    .p_box {
+        height: 49px;
+    }
+    /*Start Collaborations Popup*/
+    .inf_strt_head, .inf_strt_body, .inf_strt_footer {
+        padding: 15px;
+    }
+    /* ===================== My Draft List Page ===================== */
+    .drf_list_mcont > .row > div:nth-of-type(even) {
+        padding-left: 0;
+    }
+    .drf_list_mcont > .row > div:nth-of-type(odd) {
+        padding-right: 0;
+    }
+    .sin_draft_cmpg {
+        float: none;
+        margin-bottom: 15px;
+    }
+    .drft_sec.drft_info {
+        width: calc(70% - 100px);
+    }
+    .drft_sec.drft_brnd_thumb {
+        width: 10%;
+    }
+    .drft_sec.inv_intr_sec {
+        width: 20%;
+    }
+    .drft_sec.cmpg_opr_sec {
+        width: 100px;
+        padding-left: 0;
+    }
+    .drft_cmpg_info {
+        padding: 0 10px;
+    }
+    .dashboard_body ul.drfinv_intr_list {
+        margin: auto;
+        padding: 10px;
+    }
+    .cmpg_opr_btns {
+        padding: 5px;
+    }
+    .sin_cmpg_opr_btn {
+        width: 43px;
+        height: 43px;
+        margin: 1px;
+    }
+    /* ===================== Social Profile Page ===================== */
+    .sprof_tble_box {
+        overflow: auto;
+    }
+    .sin_sprof_tble td, .sin_sprof_tble th {
+        padding: 5px;
+        font-size: 13px;
+    }
+    .smprf_socm {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .dashboard_body {
+        padding-top: 120px;
+    }
+    /* ===================== Main Header ===================== */
+    .main_header {
+        height: 70px;
+        padding: 10px 0;
+    }
+    .head_logo > a {
+        height: 36px;
+        margin: 7px 0;
+        width: 125px;
+    }
+    .husr_usr_img {
+        width: 50px;
+        height: 50px;
+    }
+    .hd_usr_name > .hname_sp, .hd_usr_name > i, .hd_usr_blnce {
+        padding: 15px 0;
+    }
+    .hd_notifc_ico {
+        width: 40px;
+        height: 40px;
+        margin: 5px 0;
+    }
+    .hd_notifc_num {
+        font-size: 11px;
+    }
+    .head_btn_list {
+        top: 60px;
+    }
+    .hd_lk_list > li > a {
+        font-size: 13px;
+    }
+    .hd_notifc_cont {
+        width: 470px;
+    }
+    .hd_notifc_img {
+        width: 50px;
+        height: 50px;
+    }
+    .hd_notifc_name {
+        font-size: 14px;
+        margin: 2px 0;
+    }
+    .hd_notifc_info {
+        max-width: 150px;
+    }
+    .hd_notifc_txt {
+        width: 270px;
+    }
+    /* ===================== Left Menu Sidebar ===================== */
+    .sidebar {
+        top: 119px;
+        height: calc(100vh - 118px);
+    }
+    .mainbar {
+        margin-left: 0;
+    }
+    .mainbar .page-head {
+        top: 70px;
+    }
+    .mainbar .container {
+        width: 750px;
+    }
+    /* ===================== Targeted Search Page ===================== */
+    .row > div:not(:nth-last-of-type(1)) .inf_data {
+        margin-bottom: 20px;
+    }
+    .inf_bsc_data {
+        overflow: hidden;
+    }
+    .inf_bsc_image_ttle, .inf_bsc_det {
+        float: left;
+        margin-bottom: 0;
+    }
+    .inf_bsc_image_ttle {
+        width: 40%;
+    }
+    .inf_bsc_det {
+        width: 60%;
+    }
+
+    .sm_count {
+        font-size: 15px;
+    }
+    .sm_bar {
+        height: 160px;
+        width: 30px;
+    }
+    .sm_bar .bar {
+        width: 20px;
+        border-radius: 5px;
+    }
+    .sm_ico {
+        width: 30px;
+        height: 30px;
+        font-size: 21px;
+    }
+    .sm_ico i {
+        width: 30px;
+        height: 30px;
+    }
+
+    .dashboard_body ul.top_aff_list {min-height: 0;}
+
+    .ppup_box {
+        width: 700px;
+    }
+    .age_gender_title {
+        font-size: 22px;
+    }
+    .age_gender_splt_list > li, .bars_splt_val {
+        font-size: 15px;
+    }
+    .age_gender_body {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .gdr_chrt_grid .age_splt_list {
+        min-width: 500px;
+    }
+    .gender_chart_data .age_gender_splt_list > li {
+        font-size: 9px;
+    }
+    /*Add To Influencers List Popup*/
+    #AddToInfList .ppup_box {
+        width: 700px;
+    }
+    .add_inf_psec {
+        padding: 0 10px;
+    }
+    .add_inf_data, .add_inf_img {
+        float: none;
+    }
+    .add_inf_data {
+        width: auto;
+        margin: 10px 0;
+    }
+    #AddToInfList .inf_bsc_det {
+        width: 100%;
+    }
+    /* ===================== Personal Profile Page ===================== */
+    .prf_complete .gdr_sttcs .progress {
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+    }
+    .prf_complete .gdr_sttcs .progress .progress-value {
+        font-size: 24px;
+    }
+    .sin_potn_svcmpg {
+        width: 100%;
+    }
+    .sin_potn_svcmpg {
+        padding: 0;
+    }
+    .prs_info .sin_potn_svcmpg:nth-of-type(1) {
+        border-right: 0;
+        border-bottom: 1px solid #39b7bf;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .potn_svcmpg_info {
+        width: 350px;
+        font-size: 14px;
+    }
+    .potn_svcmpg_thumb {
+        width: calc(100% - 530px);
+    }
+    .svcmpg_info_ttle {
+        max-height: 38px;
+    }
+    .svcmpg_info_desc {
+        max-height: 58px;
+    }
+    .svcmpg_brnd_ico {
+        left: 17px;
+    }
+    /*Public Profile*/
+    .public_prf .psinfimg {
+        width: 150px;
+        height: 150px;
+    }
+    .ps_inf_stprc .stprc_cont {
+        border: 2px solid #b02565;
+        width: 130px;
+        height: 130px;
+        line-height: 126px;
+    }
+    .stprc_cont .lrg_text {
+        font-size: 25px;
+    }
+    .sin_usr_pdata {
+        padding: 10px;
+    }
+    .sin_usr_desc_txt > p {
+        margin: 10px;
+    }
+    /* ===================== Advertiser Profile Page ===================== */
+    .adver_prof_cont .sin_card_ico {
+        width: 96px;
+        height: 96px;
+    }
+    /* ===================== My Wish list Page ===================== */
+    .sub_pge_head {
+        padding: 10px 15px;
+    }
+    .dashboard_body ul.usr_inf_favlikst {
+        padding: 10px;
+    }
+    .usr_inf_favlikst > li {
+        width: 33.33333333%;
+    }
+    .inffav_img {
+        width: 180px;
+        height: 180px;
+    }
+    .inffav_name {
+        font-size: 14px;
+    }
+    /*Add New Group Popup*/
+    #addInfGroup .ppup_box {
+        width: 540px;
+    }
+    .add_group_frm .form_sec.upld_gimg {
+        width: 150px;
+    }
+    .upld_img_cont, .upld_img_cont .add_img_upld {
+        width: 120px;
+        height: 120px;
+    }
+    .add_group_frm .form_sec.add_grnmae {
+        width: 350px;
+    }
+    .add_glist_ipts {
+        padding: 10px 15px;
+    }
+    .add_glist_ipts > .add_grp_ipt {
+        margin-bottom: 10px;
+    }
+    /* ===================== Dashboard Page ===================== */
+    .dshbrd_pghead {
+        padding: 20px 10px 10px;
+    }
+    .dshbrd_httle {
+        font-size: 15px;
+        margin: 7px 0;
+    }
+    .sin_dshbrd_btn {
+        width: 80px;
+        font-size: 13px;
+    }
+
+    .inf_sugg_cmpg {
+        padding: 10px;
+    }
+    .inf_sugg_cmpg .sin_potn_svcmpg:nth-of-type(1) {
+        border-right: 0;
+        border-bottom: 1px solid #ee307c;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    /* ===================== Influencer Marketing Goal Page ===================== */
+    .inf_mrkt_mttle {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .inf_mrkt_ttle {
+        font-size: 16px;
+    }
+    /* ===================== Social Media Promotion Page ===================== */
+    .step_stitle {
+        font-size: 22px;
+    }
+    .artwork_hzstep .sub_step_cont {
+        float: none;
+        width: 100%;
+        border-bottom: 15px;
+    }
+    .artwork_hzstep .step_stitle, .artwork_hzstep .step_body {
+        padding: 0;
+    }
+    .artwork_hzstep .sub_step_cont:nth-of-type(1) .step_body {border-right: 0;}
+    .add_artwork_box .add_img_upld {
+        width: 100%;
+        height: 100%;
+    }
+    .wzrd_opr_btns {
+        width: 600px;
+    }
+    .sin_wzrd_opr {
+        padding: 15px 10px;
+    }
+    .wzrd_opr_ico {
+        float: none;
+        margin: 0 auto 10px;
+    }
+    .wzrd_opr_ttle {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        font-size: 13px;
+    }
+    .opr_ttle {
+        font-size: 17px;
+    }
+
+    .tpc_img {
+        width: 114px;
+        height: 114px;
+        background-size: 100px;
+        opacity: 1;
+    }
+    /* ===================== My Draft List Page ===================== */
+    /*Campaigns Sent Proposals Popup*/
+    #cmpgSntPrpsals .ppup_box {
+        width: 740px;
+    }
+    .sin_snt_prpsal {
+        padding: 10px 5px;
+    }
+    .snt_prpsal_img {
+        width: 40px;
+        height: 40px;
+    }
+    .snt_prpsal_img.send {border: 1px solid #39b7bf;}
+    .snt_prpsal_img.receive {border: 1px solid #ee307c;}
+    .snt_prpsal_info {
+        max-width: calc(100% - 100px);
+        padding: 0 5px;
+    }
+    .snt_prpsal_name {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 3px;
+    }
+    .snt_prpsal_time {
+        font-size: 10px;
+    }
+    .snt_prpsal_arrow {
+        width: 20px;
+        height: 40px;
+        background-size: 50%;
+    }
+    .snt_prpsal.snt_prpsal_txt, .snt_prpsal_txt .snt_txt {
+        height: 40px;
+    }
+    .snt_prpsal_txt p {
+        -webkit-line-clamp: 2;
+        font-size: 13px;
+        max-height: 34px;
+    }
+    .snt_prpsal.snt_prpsal_stts {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .snt_prpsal.snt_prpsal_opr {
+        height: 40px;
+        padding: 5px 0;
+    }
+    .snt_prpsal_btn {
+        width: 30px;
+        height: 30px;
+        background-size: 20px;
+    }
+    /* ===================== Promote Me Page ===================== */
+    .prmt_me_img_thumb {
+        margin: 0 auto 20px;
+        background-size: cover;
+    }
+    .pshre_prf_thumb {
+        height: 450px;
+    }
+    .embed_widg_thumb {
+        height: 465px;
+    }
+    .prmt_bdy_cont {
+        padding: 20px 0;
+    }
+    .prmt_sub_box_body {
+        font-size: 14px;
+    }
+    /* ===================== Completed Campaign ===================== */
+    .completed_campaign_cont {
+        padding: 0;
+    }
+    .sin_cmpg_box {
+        font-size: 14px;
+    }
+    .cmpg_box_img {
+        width: 160px;
+        height: 160px;
+        margin-top: 0;
+    }
+    .cmpg_box_info {
+        width: calc(100% - 300px);
+    }
+    .cmpg_box_cnnt {
+        width: 140px;
+    }
+    .cmpgbox_img_ttle, .cmpgbox_ctg, .cmpgbox_price {
+        margin-bottom: 10px;
+    }
+    .cmpgbox_ttle_txt {
+        height: 30px;
+        line-height: 30px;
+        padding-left: 10px;
+        width: calc(100% - 30px);
+        font-size: 15px;
+    }
+    .cmpgbox_ttle_ico {
+        width: 30px;
+        height: 30px;
+        background-size: 25px;
+    }
+    .cmpgbox_price {
+        font-size: 16px;
+    }
+    .cmpgbox_usr_det {
+        width: calc(100% - 60px);
+    }
+    .cmpgbox_loc_img {
+        width: 30px;
+        height: 30px;
+    }
+    .cmpgbox_loc_txt {
+        width: calc(100% - 30px);
+    }
+    .cmpgbox_brnd_img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cmpgbox_usr_sm {
+        width: 90px;
+        margin: 0 auto 10px;
+    }
+    .cmpgbox_usr_img {
+        width: 90px;
+        height: 90px;
+    }
+    .cmpgbox_sm_ico {
+        width: 30px;
+        height: 30px;
+    }
+    .cmpgbox_usr_name {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .cmpgbox_sin_btn {
+        width: 30px;
+        height: 30px;
+        background-size: 20px;
+    }
+    /* ===================== Packages Page ===================== */
+    .pckg_sttus_btn {
+        width: 75%;
+        padding: 5px 0;
+        font-size: 14px;
+        -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+    }
+    .prc_plan_ttle {
+        width: 60%;
+        font-size: 16px;
+    }
+    .prc_plan_subsc.free_plan {
+        font-size: 23px;
+    }
+    .prc_plan_subsc .month {
+        font-size: 30px;
+    }
+    .prc_pay_des {
+        font-size: 12px;
+    }
+    .pricing_cont.special_plan .sin_prc_plan {
+        background-color: #e5fdfe;
+    }
+    .plan_subscribe {
+        width: 90%;
+        margin: 0 auto 15px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .prc_plan_desc h4 {
+        font-size: 16px;
+    }
+    .prc_plan_desc p {
+        font-size: 11px;
+        height: 60px;
+    }
+    .uptopuser {
+        font-size: 13px;
+    }
+    .prc_social_list {
+        margin-bottom: 0;
+    }
+    .prc_social_list > li {
+        width: 18px;
+        height: 18px;
+    }
+    .prc_social_list > li > i {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+    }
+    .inf_brnd_colab {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .short_feat_list > li {
+        height: 25px;
+        line-height: 25px;
+    }
+    .short_feat_list > li > span {
+        font-size: 12px;
+        padding: 0 2px;
+    }
+    .feat_list_cklogo {
+        width: 15px;
+        height: 15px;
+        background-size: 12px;
+        margin: 5px 0;
+    }
+    .feat_info_desc, .short_feat_desc {
+        font-size: 11px;
+    }
+    .detail_prc_cont {
+        padding-top: 60px;
+        margin: -50px 2px 0 2px;
+        font-size: 12px;
+    }
+    .sh_more_cont {
+        padding-bottom: 15px;
+    }
+    .det_prc_list > li:not(:nth-last-of-type(1)) {
+        margin-bottom: 5px;
+    }
+    .prc_feat_name, .prc_feat_val {
+        float: none;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .prc_feat_name {
+        background-color: rgba(204, 204, 204, 0.4);
+        margin-bottom: 5px;
+    }
+    .prc_feat_vtxt {
+        float: left;
+    }
+    .pkgs_note {
+        font-size: 15px;
+    }
+    /*Influencer Package Pricing*/
+    .inf_pkg_cont {
+        width: 375px;
+    }
+
+    /* ===================== Packages Page ===================== */
+    .sin_colltxt_part {padding: 10px;}
+    .sin_collb_info {max-width: 250px;}
+    .sin_collb_text {
+        max-width: calc(100% - 250px);
+        font-size: 13px;
+    }
+    .sin_collb_usrname {font-size: 15px;}
+    .sin_collb_msgdate {font-size: 12px}
+    .sin_colltxt_part.send .sin_collb_text {padding-left: 10px;}
+    .sin_colltxt_part.receive .sin_collb_text {padding-right: 10px;}
+
+    /*Selected Collaboration Popup*/
+    #SelectedCollaboration .ppup_box {width: 700px;}
+    /* ===================== Social Profile Page ===================== */
+    .sprf_sdpanel {
+        top: 119px;
+        height: calc(100vh - 119px);
+    }
+    /* ===================== User Full Notifications Page ===================== */
+    .usr_fnotific_info {max-width: 250px;}
+    .usr_fnotific_txt {
+        max-width: calc(100% - 250px);
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    .usr_fnotific_img {
+        width: 50px;
+        height: 50px;
+    }
+    .usr_fnotific_det {
+        width: calc(100% - 50px);
+        padding-top: 5px;
+    }
+    .usr_fnotific_name {font-size: 16px;}
+    .fnotific_date {font-size: 12px;}
+    /* ===================== Discover Brands Page ===================== */
+    .search_tags_list, .search_tags_box {
+        float: none;
+        width: auto;
+    }
+    .search_tags_box {
+        margin-bottom: 10px;
+    }
+    /* ===================== Who Viewd My Profile Page ===================== */
+    .prfview_list > li {
+        padding: 10px;
+        width: 33.333333%;
+    }
+    .prfview_list > li:nth-of-type(4n+4) {
+        border-right: 1px solid #d1d3d4;
+    }
+    .prfview_list > li:nth-of-type(3n+3) {
+        border-right: 0;
+    }
+    .prfview_vtime {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .prfview_vthumb {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 10px;
+    }
+    .prfview_vname {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .prfview_vfollow {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .prfview_vcollb_ico {
+        width: 20px;
+        height: 20px;
+    }
+    .prfview_vcollb_txt {font-size: 14px;}
+    .seeallprfview {
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+}
+@media (max-width: 767px) {
+    .dashboard_body {
+        padding-top: 58px;
+    }
+    /* ===================== Main Header ===================== */
+    .main_header {
+        height: 60px;
+    }
+    .head_logo > a {
+        height: 30px;
+        width: 100px;
+        margin: 5px 0;
+    }
+    .head_btns_list > li {
+        position: static;
+    }
+    .hd_usr_name {
+        display: none;
+    }
+    .husr_usr_img {
+        width: 40px;
+        height: 40px;
+    }
+    .husr_usr_typico {
+        width: 15px;
+        height: 15px;
+    }
+    .hd_notifc_ico {
+        width: 30px;
+        height: 30px;
+        margin: 5px 0;
+    }
+    .hd_notifc_num {
+        font-size: 9px;
+    }
+    .hd_usr_blnce {
+        padding: 10px 0;
+    }
+    .head_btn_list {
+        top: 60px;
+        right: 0;
+        left: 0;
+        max-height: calc(100vh - 70px);
+    }
+    .hd_lk_list > li > a {
+        padding: 5px 10px;
+    }
+    .hd_notifc_cont {
+        width: auto;
+    }
+    .hd_notifc_img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+    .hd_notifc_info {
+        max-width: calc(100% - 40px);
+        margin: 0;
+    }
+    .hd_notifc_name {
+        font-size: 14px;
+        margin: 0;
+    }
+    .hd_notifc_time {
+        font-size: 11px;
+    }
+    .hd_notifc_txt {
+        width: 100%;
+        padding-left: 0;
+        float: none;
+        clear: both;
+    }
+    .hd_notifc_txt .ntf_txt {
+        display: block;
+        vertical-align: top;
+        height: auto;
+    }
+    /* ===================== Left Menu Sidebar ===================== */
+    .sidebar {
+        position: absolute;
+        float: none;
+        width: 100%;
+    }
+    .sidebar .sidebar-dropdown {
+        display: block;
+        position: fixed;
+        top: 63px;
+        right: 0;
+        left: 3px;
+        z-index: 11;
+        width:28px;
+    }
+    .sidebar .sidebar-dropdown a{
+        float: left;
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+        text-align: center;
+        padding:1px;
+    }
+    .sidebar .sidebar-dropdown a:before {
+        content: '\f0c9';
+        font-family: FontAwesome;
+        display: table-cell;
+        width: 26px;
+        height: 26px;
+        vertical-align: middle;
+    }
+    .sidebar .sidebar-dropdown a, .sidebar .sidebar-dropdown a:hover, .sidebar .sidebar-dropdown a:focus{border: 1px solid #d1d3d4;background-color:#f8f8f8;color:#777;padding:0;}
+    .sidebar .sidebar-dropdown a.active {color: #fff}
+    .sidebar_adv .sidebar-dropdown a.active {background-color: #39b7bf;}
+    .sidebar_inf .sidebar-dropdown a.active {background-color: #ee307c;}
+
+    .sidebar #nav {
+        display: none;
+        position: fixed;
+        top: 93px;
+        left: 0;
+        right: 0;
+        max-height: calc(100vh - 87px);
+        overflow: auto;
+        z-index: 999;
+        border-top: 1px solid #d1d3d4;
+        border-right: 1px solid #d1d3d4;
+        border-bottom: 1px solid #d1d3d4;
+        max-width:250px;
+        margin:0;
+    }
+    .sidebar #nav > li > a {
+        padding: 5px;
+    }
+    .sidebar #nav li ul li a {padding: 5px;}
+    .nv_lk_ico {
+        width: 30px;
+        height: 30px;
+        background-size: 24px;
+    }
+    .nv_lk_txt {
+        padding: 6px;
+        width: calc(100% - 30px);
+    }
+    .sidebar #nav > li.has_sub > a .nv_lk_txt {
+        width: calc(100% - 50px);
+    }
+    .nv_lk_chev {
+        margin: 6px 0;
+    }
+    .mainbar {
+        float: none;
+        margin: 0;
+        border: 0;
+    }
+    .mainbar .page-head {
+        padding: 5px;
+        z-index: 10;
+        border-bottom: 1px solid #d1d3d4;
+        position: fixed;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid #d1d3d4;
+    }
+    .page_head_ttle {
+        font-size: 17px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: calc(100% - 60px);
+    }
+    .page_head_ico {
+        width: 24px;
+        height: 24px;
+        margin-left:30px;
+    }
+    .pghead_subtxt {
+        font-size: 13px;
+        padding: 3px 0;
+    }
+    .mainbar .matter{
+        padding-top:45px;
+    }
+    .prfview_vname{
+        height:34px;
+    }
+    /* ===================== Targeted Search Page ===================== */
+    .filter_header {
+        padding-bottom: 15px;
+    }
+    .filt_sch_cont {
+        float: none;
+        margin-bottom: 5px;
+    }
+    .saved_cmpg_btn {
+        float: none;
+        overflow: hidden;
+        display: block;
+    }
+    .show_svd_cmpg_text {
+        width: calc(100% - 40px);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .head_img {
+        width: 30px;
+        height: 30px;
+    }
+    .filt_head_ipt {
+        height: 30px;
+        width: calc(100% - 50px);
+        margin: 0;
+    }
+    .sin_filt_btns {
+        float: none;
+        padding: 10px 5px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+
+    .tab_cont {
+        padding: 10px;
+    }
+    .main_opt_ttle {
+        padding: 5px;
+        font-size: 13px;
+    }
+    .sub_opt_cont {
+        top: 30px;
+    }
+    .sub_opt_cont:before {
+        content: normal;
+    }
+    .selected_filt_list li {
+        font-size: 12px;
+        padding: 5px 25px 5px 30px;
+    }
+    .kw_ipt, .flt_sch_opt {
+        width: 200px;
+    }
+    .selected_filt_list li .icon {
+        width: 22px;
+        height: 17px;
+        top: 4px;
+        left: 4px;
+    }
+    .selected_filt_list li .remove_categ {
+        font-size: 19px;
+    }
+
+    .filt_op_btn {
+        width: calc(50% - 5px);
+        margin: 0;
+    }
+    .filt_op_btn:nth-of-type(odd) {
+        margin-left: 5px;
+    }
+    .filt_op_btn:nth-of-type(even) {
+        margin-right: 5px;
+    }
+    .gen_data_cont {
+        padding: 40px 10px 10px 10px;
+    }
+    .gen_data_cont .row > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .row > div:not(:nth-last-of-type(1)) .inf_data {
+        margin-bottom: 20px;
+    }
+    .inf_bsc_image_ttle {
+        margin-bottom: 10px;
+    }
+    .inf_bsc_image, .inf_bsc_ttle {
+        float: none;
+    }
+    .inf_bsc_image {
+        width: 240px;
+        height: 240px;
+        margin: 0 auto 10px auto;
+    }
+    .inf_bsc_ttle {
+        width: 100%;
+        height: auto;
+    }
+    .inf_bsc_ttle h4 {
+        display: block;
+        height: auto;
+        vertical-align: top;
+        text-align: center;
+    }
+    .sin_bsc_data {
+        font-size: 13px;
+        text-align: center;
+    }
+    .sin_bsc_data .sin_bsc_country {
+        text-align: left;
+    }
+    .inf_data .half-cont {
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+    .sm_bar {
+        height: 150px;
+        width: 25px;
+    }
+    .sm_bar .bar {
+        width: 10px;
+        left: 7px;
+    }
+    .sm_ico {
+        font-size: 16px;
+        width: 25px;
+        height: 25px;
+    }
+    .sm_ico i {
+        width: 25px;
+        height: 25px;
+    }
+    .dashboard_body ul.top_aff_list {min-height: 0;}
+    .inf_det_info {
+        padding: 10px;
+    }
+    .inf_det_info:after {
+        left: calc(50% - 16px);
+    }
+    .inf_det_info:before {
+        left: calc(50% - 18px);
+    }
+    .sin_det_grid {
+        float: none;
+        padding: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .sin_det_grid, .sin_det_grid.gdr_chrt_grid {
+        width: 100%;
+    }
+    .inf_det_grid.forth .tble_cont, .inf_det_grid.fifth .tble_cont {
+        max-height: none;
+    }
+    .gend_split_ppup {
+        text-align: center;
+    }
+    .popup_overlay {
+        padding: 15px;
+    }
+    .ppup_box, #AddToInfList .ppup_box, #wzrdAlertOpr .ppup_box {
+        width: 100%;
+        margin: 40px auto;
+    }
+    .ppup_body {
+        padding: 15px;
+    }
+
+    .age_gender_body {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .age_gender_title, .age_gender_splt_list {
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    .age_gender_title {
+        font-size: 17px;
+    }
+    .age_gender_splt_list > li {
+        font-size: 13px;
+    }
+    .age_splt_list {
+        min-width: 500px;
+    }
+    .age_splt_list > li {
+        width: 20%;
+    }
+    .sgl_gdr_bar {
+        font-size: 11px;
+    }
+    .gbar_col {
+        height: 200px;
+    }
+    .bars_splt_val, .gender_chart_data .bars_splt_val {
+        font-size: 15px;
+    }
+    .add_to_inf_list_frm {
+        padding: 0;
+    }
+    .add_inf_psec {
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+    .add_inf_psec:nth-of-type(1) {
+        border-right: 0;
+        margin-bottom: 10px;
+    }
+    .add_to_inflist_cont {
+        padding: 0;
+    }
+    .add_inf_data, .add_inf_img {
+        float: none;
+    }
+    .add_inf_data {
+        margin: 20px 0 0 0;
+        width: auto;
+        text-align: center;
+    }
+    /*Start Collaborations Popup*/
+    .inf_strt_head, .inf_strt_body, .inf_strt_footer {
+        padding: 10px;
+    }
+    .strt_box_cont {
+        width: auto;
+    }
+    .inf_strt_img {
+        float: none;
+        margin: 0 auto 10px;
+    }
+    .inf_strt_ttle {
+        float: none;
+        width: auto;
+        padding-left: 0;
+        height: auto;
+        line-height: inherit;
+        white-space: normal;
+        text-overflow: clip;
+        font-size: 15px;
+        text-align: center;
+    }
+    .inf_strt_form .wr_mess_lbl {
+        text-align: center;
+        font-size: 15px;
+    }
+    .wr_mess_reset, .wr_mess_submit {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .wr_mess_reset {
+        margin-bottom: 5px;
+    }
+    /* ===================== Personal Profile Page ===================== */
+    .prs_info {
+        margin-bottom: 20px;
+    }
+    .prs_info_footer {
+        padding: 10px;
+    }
+    .ps_inf_img, .public_prf .ps_inf_img, .ps_inf_det, .public_prf .ps_inf_det,.ps_inf_opt {
+        float: none;
+        width: auto;
+        min-height: 0;
+        padding: 10px 0;
+    }
+    .ps_inf_det {
+        border: 0;
+    }
+    .psinfimg {
+        width: 200px;
+        height: 200px;
+    }
+    .ps_inf_stprc {
+        margin-top: 20px;
+    }
+    .ps_inf_stprc .stprc_cont {
+        border: 2px solid #b02565;
+        width: 140px;
+        height: 140px;
+        line-height: 136px;
+    }
+    .stprc_cont .lrg_text {
+        font-size: 25px;
+    }
+
+    .usr_prim_data {
+        padding: 5px;
+    }
+    .sin_prim_ttle, .sin_prim_val {
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    .usr_psw_ipt, .usr_psw_btn {
+        float: none;
+        width: 100%;
+
+    }
+    .usr_psw_ipt {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .usr_psw_btn {
+        margin-left: 0;
+    }
+    .usr_prf_txarea {
+        height: 200px;
+    }
+    .categ_card_list {
+        padding: 0;
+    }
+    .sin_card_ico {
+        width: 63px;
+        height: 63px;
+    }
+    .categ_card_list li {
+        padding: 2px;
+    }
+    .prs_info_footer .usr_cnfrm_btn {
+        float: none;
+        text-align: center;
+    }
+    .brn_gdline_file, .inf_md_kit {
+        padding: 0;
+    }
+    .gdline_file_ico, .mdkit_file_ico {
+        float: left;
+        width: 60px;
+        height: 60px;
+    }
+    .gdline_file_name, .mdkit_file_name {
+        float: left;
+        padding-left: 10px;
+        width: calc(100% - 60px);
+    }
+    .sin_potn_svcmpg {
+        float: none;
+        width: auto;
+        overflow: hidden;
+        padding: 0;
+    }
+    .prs_info .sin_potn_svcmpg:nth-of-type(1) {
+        border-right: 0;
+        border-bottom: 1px solid #39b7bf;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .potn_svcmpg_img, .potn_svcmpg_info, .potn_svcmpg_thumb {
+        float: none;
+    }
+    .potn_svcmpg_img {
+        margin: 0 auto 10px;
+    }
+    .potn_svcmpg_info {
+        height: auto;
+        width: auto;
+        padding: 0;
+        border-right: 0;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .svcmpg_info_ttle {
+        overflow: visible;
+        text-overflow: clip;
+        display: block;
+        max-height: none;
+    }
+    .svcmpg_info_desc {
+        overflow: visible;
+        max-height: none;
+        text-overflow: clip;
+        display: block;
+    }
+    .svcmpg_prc_offr {
+        position: static;
+        bottom: auto;
+        left: auto;
+        overflow: hidden;
+    }
+    .svcmpg_info_price {
+        float: left;
+        margin-bottom: 0;
+    }
+    .svcmpg_info_offr {
+        float: right;
+    }
+    .potn_svcmpg_thumb {
+        width: auto;
+        height: auto;
+    }
+    .potn_svcmpg_smbrand, .potn_svcmpg_cht {
+        float: none;
+        width: auto;
+        height: auto;
+    }
+    .potn_svcmpg_smbrand {
+        position: relative;
+        overflow: hidden;
+        float: left;
+        width: 100%;
+        border-right: 0;
+    }
+    .svcmpg_sm_ico {
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+    .svcmpg_brnd_ico {
+        position: static;
+        bottom: auto;
+        left: auto;
+        float: right;
+        width: 40px;
+        height: 40px;
+    }
+    .inf_sugg_cmpg .potn_svcmpg_cht {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .svcmpg_cht_ico {
+        width: 40px;
+        height: 40px;
+    }
+    .inf_sugg_cmpg .svcmpg_cht_ico {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    /*Public Profile*/
+    .sin_usr_pdata {
+        padding: 10px;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+    .sin_usr_desc_txt > p {
+        margin: 10px;
+    }
+    .inf_prof_sec .prf_complete {
+        margin-bottom: 10px;
+    }
+    /* ===================== Referrals Page ===================== */
+    .ref_prson_txt, .ref_prson_lk {
+        display: block;
+        text-align: center;
+    }
+    .sb_acc_img, .sb_acc_text {
+        float: none;
+        margin: 0 auto 5px;
+    }
+    .sb_acc_text {
+        text-align: center;
+        height: auto;
+        line-height: inherit;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+        width: auto;
+        padding: 0;
+    }
+    .google_contacts_box {
+        margin-top: 10px;
+    }
+    .reff_table_box {
+        overflow: auto;
+    }
+    .reff_table {
+        min-width: 500px;
+    }
+    .refer_btn {
+        float: none;
+        display: block;
+        text-align: center;
+        padding: 5px 20px;
+    }
+    /* ===================== Advertiser Profile Page ===================== */
+    .adv_prf_img, .adv_prf_tble {
+        float: none;
+        width: auto;
+        margin: 0 0 20px 0;
+    }
+    .adprf {
+        margin: 0 auto;
+    }
+    .adv_prf_name {
+        margin-bottom: 10px;
+        padding: 0;
+        text-align: center;
+    }
+    table.adv_info_tble {
+        height: auto;
+    }
+    .adv_cnry_sp, .mn_trnd_sp, .abt_adv_sp {
+        overflow: visible;
+        text-overflow: clip;
+        display: inline;
+    }
+    .adver_prof_cont .prs_info {
+        margin-bottom: 20px;
+        height: auto;
+    }
+    /* ===================== My Wish list Page ===================== */
+    .sub_pge_head, .dashboard_body ul.usr_inf_favlikst {
+        padding: 10px;
+    }
+    .add_wshlst_btn {
+        display: block;
+        text-align: center;
+    }
+    .usr_inf_favlikst > li {
+        float: none;
+        width: auto;
+        padding: 0;
+        margin: 0 auto 10px;
+        max-width: 350px;
+    }
+    .inffav_name {
+        font-size: 14px;
+        display: block;
+        height: auto;
+    }
+    .inffav_img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .spttle {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .spttle_icon, .spttle_txt {
+        height: 30px;
+        line-height: 30px;
+    }
+    .spttle_icon {
+        margin-right: 5px;
+        width: 30px;
+    }
+    .spttle_txt {
+        font-size: 14px;
+        max-width: calc(100% - 40px);
+    }
+
+
+
+    /*Add New Group Popup*/
+    #addInfGroup .ppup_box {
+        width: auto;
+        max-width: 350px;
+    }
+    .add_group_frm .form_sec {
+        float: none;
+    }
+    .add_group_frm .form_sec.upld_gimg {
+        border: 0;
+        margin: 10px auto;
+    }
+    .add_group_frm .form_sec.add_grnmae {
+        width: auto;
+    }
+    .add_glist_ipts {
+        padding: 0;
+    }
+    .add_glist_ipts > .add_grp_ipt {
+        margin-bottom: 10px;
+    }
+    .add_glist_ipts > .add_grp_cfrm {
+        display: block;
+        width: 100%;
+    }
+    /*Remove Influencer Popup*/
+    #removeInf .ppup_box {
+        width: auto;
+    }
+    .rmv_inf_confirm h5 {
+        margin-bottom: 20px;
+    }
+    .rmv_cfrm_btn {
+        float: none;
+        display: block;
+        padding: 5px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .rmv_cfrm_btn:not(:nth-last-of-type(1)) {
+        margin-bottom: 5px;
+    }
+
+    .dshbrd_pghead {
+        margin: 0 0 10px 0;
+        padding: 20px 10px 10px;
+    }
+    .dshbrd_httle {
+        margin: 0 0 10px 0;
+        float: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    .dashboard_head_btns {
+        float: none;
+        text-align: center;
+    }
+    .sin_pgbody_grid {
+        float: none;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .sin_pgbody_grid.get_strt_rec, .sin_pgbody_grid.img_p_grid, .sin_pgbody_grid.inf_mrk_stc, .sin_pgbody_grid.soc_mng_stc,
+    .sin_pgbody_grid.rcnt_ongcamp, .sin_pgbody_grid.rcnt_posted, .sin_pgbody_grid.rcnt_inf_camp {
+        width: 100%;
+    }
+    .p_box {
+        text-align: center;
+        overflow: visible;
+        text-overflow: clip;
+        display: block;
+    }
+
+    .inf_mrk_sec {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .inf_mrk_sec:nth-of-type(1) {
+        border-right: 0;
+        margin-bottom: 20px;
+    }
+    .cmpg_ttle {
+        font-size: 15px;
+    }
+    .cmpg_ttle .bg_spn {
+        font-size: 23px;
+    }
+    .sin_res_cmpg {
+        float: none;
+        width: 100%;
+        font-size: 11px;
+        margin: 0;
+    }
+    .sin_res_cmpg:not(:nth-last-of-type(1)) {
+        margin-bottom: 5px;
+    }
+
+
+    /*Campaign Details Popup*/
+    #campDetails .ppup_box {
+        width: auto;
+    }
+    .cmpg_fdet_head {
+        margin-bottom: 20px;
+    }
+    .cmpg_thumb, .cmpg_dtusr_img {
+        float: none;
+        width: 100%;
+    }
+    .cmpg_thumb > span {
+        width: 260px;
+        float: none;
+        border: 2px solid #ee307c;
+        margin: auto;
+    }
+    .cmpg_fdet_chev {
+        float: none;
+        width: 40px;
+        height: 40px;
+        background-size: 20px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin: auto;
+    }
+    .cmpg_dtusr_img > span {
+        margin: auto;
+    }
+    .cmpg_fdet_grid .sin_grid {
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .cfdet_ipt_cont label {
+        text-align: center;
+    }
+    /* ===================== Influencer Marketing Goal Page ===================== */
+    .inf_mrkt_gol_cont {
+        padding: 0;
+    }
+    .inf_mrkt_mttle {
+        font-size: 20px;
+        text-align: center;
+    }
+    .sin_inf_mrkt {
+        max-width: 350px;
+        margin: 0 auto 20px;
+    }
+    .row > div:nth-last-of-type(1) .sin_inf_mrkt {
+        margin-bottom: 0;
+    }
+    .inf_mrkt_desc {
+        height: auto;
+        text-align: center;
+        overflow: visible;
+        text-overflow: clip;
+        display: block;
+    }
+    /* ===================== Social Media Promotion Page ===================== */
+    .wizard_nav {
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+    .wzrd_nv_lst li {
+        margin-top: 0;
+    }
+    .wzrd_nv_lst li:before {
+        top: 13px;
+        height: 4px;
+    }
+    .wzd_nv_num {
+        height: 30px;
+        line-height: 24px;
+        width: 30px;
+        border: 3px solid #666;
+        font-size: 17px;
+    }
+    .wzrd_step_footer {
+        padding: 10px 0;
+    }
+    .wzrd_fbtns {
+        float: right;
+        width: calc(50% - 5px);
+    }
+    .wzrd_fbtns[data-wzrd-btn="next"] {
+        margin-left: 5px;
+    }
+    .wzrd_fbtns[data-wzrd-btn="back"] {
+        margin-right: 5px;
+    }
+
+    .wzd_nv_ttle {
+        display: none;
+    }
+    .sub_step_cont {
+        padding: 15px 0;
+        min-height: 0;
+    }
+    .sub_step_cont:not(:nth-last-of-type(1)) {
+        margin-bottom: 10px;
+    }
+    .op_list_step_cont {
+        min-height: 0;
+    }
+    .step_stitle {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .step_hint_ttle {
+        font-size: 11px;
+        padding-left: 20px;
+    }
+    .wzd_opt_hlist {
+        margin-left: 0;
+        margin-top: 20px;
+        top: 100%;
+        right: 10%;
+        left: 10%;
+    }
+    .wzd_opt_hlist.left {
+        left: 0;
+        right: 0;
+        margin-right: 0;
+    }
+    .wzd_opt_hlist:before {
+        top: -24px;
+        left: calc(50% - 12px);
+        border-color: transparent transparent #39b7bf transparent;
+    }
+    .wzd_opt_hlist.left:before {
+        right: auto;
+        left: calc(50% - 12px);
+        border-color: transparent transparent #39b7bf transparent;
+    }
+    .wzd_opt_hlist:after {
+        top: -20px;
+        left: calc(50% - 10px);
+        border-color: transparent transparent #fff transparent;
+    }
+    .wzd_opt_hlist.left:after {
+        right: auto;
+        left: calc(50% - 10px);
+        border-color: transparent transparent #fff transparent;
+    }
+    .wzd_opt_hlist .loc_txrea {
+        width: 100%;
+    }
+
+    .tpc_img {
+        width: 90px;
+        height: 90px;
+        background-size: 70px;
+        opacity: 1;
+    }
+
+    /*Step 3*/
+    .add_artwork_box {
+        height: 290px;
+    }
+    .artwork_hzstep .sub_step_cont {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .artwork_hzstep .step_stitle, .artwork_hzstep .step_body {
+        padding: 0;
+    }
+    .artwork_hzstep .sub_step_cont:nth-of-type(1) .step_body {
+        border-right: 0;
+    }
+
+    /*Step 4*/
+    .clndr_btn_cont .check_clndr {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .fst_det_ipt, .snd_det_ipt, .add_comp_ipt, .rmv_comp_ipt, .sin_step_part .fst_det_ipt {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
+    /*Step 5*/
+    .step_part_ttle {
+        font-size: 18px;
+    }
+    .wzrd_opr_btns {
+        width: auto;
+    }
+    .sin_wzrd_opr {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto 10px;
+    }
+    .wzrd_opr_ttle {
+        margin: 5px 0;
+    }
+    .opr_ttle {
+        font-size: 16px;
+    }
+    .opr_hint {
+        font-size: 13px;
+    }
+    /* ===================== My Draft List Page ===================== */
+    .drf_list_mcont {
+        padding: 0;
+    }
+    .drf_list_mcont > .row > div {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .drf_list_mcont > .row > div:nth-of-type(even) {
+        padding-left: 15px;
+    }
+    .drf_list_mcont > .row > div:nth-of-type(odd) {
+        padding-right: 15px;
+    }
+    .sin_draft_cmpg {
+        float: none;
+        padding: 15px;
+    }
+    .drft_sec {
+        float: none;
+        height: auto;
+    }
+    .drft_sec:not(:nth-last-of-type(1)) {
+        border-right: 0;
+        border-bottom: 1px solid #d1d3d4;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .drft_sec.drft_info {
+        width: 100%;
+    }
+    .drft_cmpg_thumb {
+        float: none;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 10px;
+    }
+    .drft_cmpg_info {
+        float: none;
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+    .drft_cmpg_name, .drft_cmpg_ctg {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+    .cmpg_offr_ico, .cmpg_stts {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .drft_sec.drft_brnd_thumb {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .drft_cmpg_sm, .drft_cmpg_brnd {
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+    }
+    .dashboard_body ul.drfinv_intr_list {
+        padding: 0;
+        min-width: 0;
+        text-align: center;
+    }
+    .drfinv_intr_list > li {
+        padding-left: 0;
+    }
+    .drfinv_intr_ico, .drfinv_intr_num, .drfinv_intr_type {
+        vertical-align: top;
+        display: inline-block;
+    }
+    .drfinv_intr_ico {
+        position: static;
+        top: auto;
+        left: auto;
+    }
+    .drft_sec.cmpg_opr_sec {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .sin_cmpg_opr_btn {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .cmpg_opr_btns {
+        padding: 0;
+    }
+    /*Campaigns Sent Proposals Popup*/
+    #cmpgSntPrpsals .ppup_box {
+        width: auto;
+    }
+    .snt_prpsal.snt_prpsal_thumb, .snt_prpsal.snt_prpsal_txt, .snt_prpsal.snt_prpsal_stts, .snt_prpsal.snt_prpsal_opr {
+        width: auto;
+        height: auto;
+    }
+    .snt_prpsal {
+        float: none;
+        padding: 0;
+    }
+    .snt_prpsal_img {
+        float: none;
+        margin: 0 auto 10px;
+    }
+    .snt_prpsal_info {
+        float: none;
+        max-width: 100%;
+        text-align: center;
+    }
+    .snt_prpsal_arrow {
+        float: none;
+        display: none;
+    }
+    .snt_prpsal_txt .snt_txt {
+        display: block;
+        vertical-align: top;
+        height: auto;
+    }
+    .snt_prpsal_txt p {
+        overflow: visible;
+        text-overflow: clip;
+        display: block;
+        font-size: 14px;
+        margin-bottom: 5px;
+        text-align: center;
+        max-height: none;
+    }
+    .snt_prpsal.snt_prpsal_stts {
+        line-height: inherit;
+        font-size: 14px;
+    }
+    /* ===================== Dashboard Page ===================== */
+    .inf_sugg_cmpg {
+        padding: 10px;
+    }
+    .inf_sugg_cmpg .sin_potn_svcmpg:nth-of-type(1) {
+        border-right: 0;
+        border-bottom: 1px solid #ee307c;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    /* ===================== Promote Me Page ===================== */
+    .promote_me_head {
+        padding: 10px 15px;
+        background-color: #dcdcdc;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .promote_me_body {
+        padding: 10px;
+    }
+    .prmt_me_img_thumb {
+        max-width: 290px;
+        margin: 0 auto 10px;
+        background-size: cover;
+    }
+    .pshre_prf_thumb {
+        height: 214px;
+    }
+    .embed_widg_thumb {
+        height: 210px;
+    }
+    .prmt_sub_box_ttle {
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .prmt_sub_box_body {
+        padding: 15px;
+        font-size: 12px;
+    }
+    .prmt_bdy_cont.pshre_prf_bx, .prmt_bdy_cont.embed_widg_bx {
+        padding: 0;
+    }
+    .prmt_cpy_btn {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+    .embed_widg_bx h4 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .prmot_cpy_ipt {
+        padding: 0 5px;
+        font-size: 13px;
+    }
+    /* ===================== Completed Campaign ===================== */
+    .completed_campaign_cont {
+        padding: 0;
+    }
+    .completed_campaign_cont .row > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cmpgbox_ctg {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+    .sin_cmpg_box {
+        font-size: 13px;
+    }
+    .cmpg_box_img, .cmpg_box_info, .cmpg_box_cnnt {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .cmpg_box_img {
+        margin: 0 auto 10px;
+    }
+    .cmpg_box_info {
+        width: auto;
+        padding-left: 0;
+    }
+    .cmpgbox_usr_det {
+        width: calc(100% - 45px);
+    }
+    .cmpgbox_brnd_img {
+        width: 45px;
+        height: 45px;
+    }
+    .cmpgbox_img_ttle {
+        margin-bottom: 10px;
+    }
+    .cmpgbox_ctg {
+        margin-bottom: 10px;
+    }
+    .cmpgbox_ttle_txt {
+        font-size: 14px;
+    }
+    .cmpgbox_price {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .cmpgbox_locdet {
+        margin-bottom: 10px;
+    }
+    .cmpg_box_cnnt {
+        width: auto;
+    }
+    .cmpgbox_usr_sm {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto 10px;
+    }
+    .cmpgbox_sin_btn {
+        width: 30px;
+        height: 30px;
+        background-size: 20px;
+    }
+    .cmpgbox_usr_name {
+        margin-bottom: 10px;
+    }
+    /* ===================== Social Profile Page ===================== */
+    .manage_smbox_body, .manage_smbox_footer {
+        padding: 15px;
+    }
+    .sprof_tble_box {
+        overflow: auto;
+    }
+    .sprf_sdpanel {
+        width: 300px;
+        top: 122px;
+        height: calc(100vh - 122px);
+    }
+    .sin_sprof_tble td, .sin_sprof_tble th {
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .mngsm_tbbtn {
+        float: none;
+        width: auto;
+        border: 1px solid #d1d3d4;
+        margin-bottom: -1px;
+        padding: 5px;
+    }
+    .mngsm_tbbtn.active {
+        border: 1px solid #d1d3d4;
+    }
+    .mng_sm_list > li > label {
+        padding: 10px;
+    }
+
+    .mngsm_ass {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ===================== Packages Page ===================== */
+    .pricing_cont {
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .sin_prc_plan {
+        z-index: auto;
+    }
+    .pricing_cont.special_plan .sin_prc_plan {
+        background-color: #e5fdfe;
+    }
+    .pricing_cont:nth-of-type(4) {
+        margin-bottom: 0;
+    }
+    .pricing_cont .detail_prc_cont {
+        padding-top: 60px;
+        border-radius: 0 0 30px 30px;
+        margin: -61px 0 0;
+    }
+    .pricing_cont .sh_more_cont {
+        display: block;
+        margin: 20px;
+        padding: 7px;
+        border: 1px solid #ee307c;
+        border-radius: 10px;
+    }
+    .pricing_cont .sin_det_prc {
+        float: none;
+        width: auto;
+        border: 0;
+        border-radius: 0 0 30px 30px;
+    }
+    .prc_plan_desc p {
+        height: auto;
+        display: block;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+    .short_feat_list > li > .short_feat_ico {
+        display: inline-block;
+    }
+    .pkgs_note {
+        margin: 20px 10px 10px;
+        font-size: 14px;
+    }
+    /*Influencer Package Pricing*/
+    .inf_pkg_cont {
+        width: auto;
+    }
+    .inf_pkg_cont .pricing_cont, .inf_pkg_cont .sin_det_prc {
+        width: 100%;
+    }
+
+    /* ===================== All Collaborations Page ===================== */
+    .sin_colltxt_part {
+        padding: 15px;
+    }
+    .sin_colltxt_part.send .sin_collb_info , .sin_colltxt_part.receive .sin_collb_info,
+    .sin_colltxt_part.send .sin_collb_text , .sin_colltxt_part.receive .sin_collb_text {
+        float: none;
+        max-width: none;
+        padding: 0;
+    }
+    .sin_collb_info {
+        margin-bottom: 10px;
+    }
+
+    .sin_colltxt_part.send .sin_collb_text, .sin_colltxt_part.receive .sin_collb_text {
+        text-align: center;
+        font-size: 13px;
+    }
+    .sin_collb_usrdetl {
+        padding-bottom: 15px;
+    }
+    .sin_collb_usrname {
+        font-size: 15px;
+    }
+    .sin_collb_msgdate {
+        font-size: 12px;
+    }
+
+    /*Selected Collaboration Popup*/
+    #SelectedCollaboration .ppup_box {width: auto;}
+
+    /* ===================== User Full Notifications Page ===================== */
+    .usr_fnotific_info, .usr_fnotific_txt {
+        width: 100%;
+        max-width: none;
+        padding-left: 0;
+    }
+    .usr_fnotific_img {
+        width: 50px;
+        height: 50px;
+    }
+    .usr_fnotific_det {width: calc(100% - 50px);}
+    .usr_fnotific_name {font-size: 16px;}
+    .fnotific_date {font-size: 12px;}
+    .usr_fnotific_txt {font-size: 13px;}
+
+    /* ===================== My Calendar Page ===================== */
+    .my_calendar_section .fc-toolbar .fc-left, .my_calendar_section .fc-toolbar .fc-right {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .my_calendar_section .fc-toolbar .fc-center {
+        display: block;
+        overflow: hidden;
+        clear: both;
+    }
+    .my_calendar_section .fc-toolbar h2 {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .clnd_toolbox {
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    .clnd_bx_hint {margin-bottom: 10px;}
+    .sin_clnd_mn_hint {
+        text-align: center;
+    }
+    .mn_hint_ico {
+        width: 20px;
+        height: 20px;
+    }
+    .mn_hint_text {
+        font-size: 14px;
+    }
+    .sin_clnd_sub_hint {
+        display: block;
+        padding-right: 0;
+        text-align: center;
+    }
+    .sub_hint_ico {
+        width: 15px;
+        height: 15px;
+    }
+    .sub_hint_ico, .sub_hint_text {
+        font-size: 13px;
+    }
+
+    .add_hoday_list_cont, .add_hoday_lbl {
+        float: none;
+        width: auto;
+    }
+    .add_hoday_lbl {display: none;}
+
+    /* ===================== Discover Brands Page ===================== */
+    .search_tags_list, .search_tags_box {
+        float: none;
+        width: auto;
+    }
+    .search_tags_box {
+        margin-bottom: 10px;
+    }
+    .brand_section_box .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .brand_section_box .row > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sin_brand_box {
+
+    }
+    .brand_img_box, .sin_brand_body, .brand_namectg, .brand_socmd {
+        float: none;
+    }
+    .brand_img_box {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 10px;
+    }
+    .sin_brand_body {
+        width: auto;
+        padding-left: 0;
+    }
+    .brand_namectg {
+        width: auto;
+        padding: 0;
+    }
+    .brand_name {
+        font-size: 16px;
+        overflow: visible;
+        text-overflow: clip;
+        display: block;
+        height: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .brand_ctg_list {
+        text-align: center;
+    }
+    .brand_socmd {
+        width: auto;
+    }
+    .brand_socmd_list, .brand_ctg_list {
+        display: block;
+        height: auto;
+        overflow: visible;
+    }
+    .sin_brand_prcntg {
+        text-align: center;
+        margin: 10px;
+    }
+    .brand_prcntg_ico, .brand_prcntg_val {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    /* ===================== Suggest Brands Page ===================== */
+    .page_head_ppup {
+        float: none;
+        display: block;
+        font-size: 14px;
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
+    .page_head_ppup.suggestmenu2 {
+        display:block;
+    }
+    .page_head_ppup.suggestmenu1 {
+        display:none;
+    }
+    /*Suggest New Brand Popup*/
+    .brand_hint_box {
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .ppup_grid_box {
+        padding: 5px;
+    }
+    .sin_ppupgrid {
+        float: none;
+        width: 100%;
+    }
+    .sugg_brand_sshot {
+        margin: auto;
+    }
+    .sugg_brand_ipt_box > label {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .band_ppup_oper input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .sugg_brand_tarea {
+        height: 130px;
+    }
+    .band_ppup_oper {
+        padding: 15px;
+    }
+    /* ===================== My Previous Campaigns Page ===================== */
+    .myprvcmpg_mnbox .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .myprvcmpg_mnbox .row > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .myprvcmpg_thumb, .myprvcmpg_content, .myprvcmpg_ext {
+        float: none;
+        min-height: 0;
+    }
+    .myprvcmpg_thumb {
+        margin: 0 auto 10px;
+    }
+    .myprvcmpg_content {
+        width: auto;
+        padding: 0;
+    }
+    .myprvcmpg_ttle {
+        font-size: 16px;
+        overflow: visible;
+        text-overflow: clip;
+        display: block;
+        height: auto;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .myprvcmpg_date {
+        font-size: 14px;
+        text-align: center;
+    }
+    .myprvcmpg_brand {
+        text-align: center;
+    }
+    .myprvcmpg_brand_img, .myprvcmpg_brand_name {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .myprvcmpg_brand_name {
+        max-width: calc(100% - 65px);
+    }
+    .myprvcmpg_stats {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .myprvcmpg_ext {
+        width: auto;
+        overflow: hidden;
+    }
+    .myprvcmpg_opr {
+        float: right;
+    }
+    .myprvcmpg_sm {
+        overflow: hidden;
+        position: static;
+        float: left;
+    }
+    .myprvcmpg_opr_btn {
+        margin: 0 0 0 10px;
+        float: left;
+    }
+    /* ===================== Who Viewd My Profile Page ===================== */
+    .prf_viewd_num, .viewd_inc_val {
+        float: none;
+        height: auto;
+        line-height: 1.42857143;
+        text-align: center;
+        margin: 0;
+    }
+    .pviewd_chart_box_head {
+        font-size: 14px;
+    }
+    .viewd_num_val {
+        font-size: 20px;
+    }
+    .chart_canvas {
+        width: 100% !important;
+        height: 300px !important;
+    }
+    .prfview_list > li {
+        float: none;
+        width: auto;
+        padding: 10px;
+        border-right: 0;
+    }
+    .prfview_vtime {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .prfview_vthumb {
+        margin: 0 auto 10px;
+    }
+    .prfview_vname {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .prfview_vfollow {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .prfview_vcollb_ico {
+        width: 25px;
+        height: 25px;
+    }
+    .prfview_vcollb_txt {font-size: 18px}
+}
+
+@media (min-width: 1200px) {
+    .wcome_body {
+        padding: 0;
+    }
+}
+@media (max-width: 1199px) {
+    .wcome_body {
+        padding: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*Step One*/
+    .wtrend_ctg_list.shrink {
+        max-width: 376px;
+    }
+    /*Step Two*/
+    .user_type_choose {
+        padding-bottom: 30px;
+    }
+    .user_type_choose.utypeAdv {
+        padding-right: 40px;
+        background-size: 50px;
+    }
+    .user_type_choose.utypeInf {
+        padding-left: 40px;
+        background-size: 50px;
+    }
+    .user_type_desc {
+        font-size: 17px;
+        min-height: 340px;
+    }
+    .utypettle {font-size: 25px;}
+    .utypelist > li {padding-left: 25px;}
+    .utypelist > li:before {
+        font-size: 13px;
+        width: 13px;
+        padding: 3px 0;
+    }
+    .user_type_img {height: 430px;}
+    .utypebtn {margin-top: 30px;}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Step One*/
+    .wtrend_ctg_list.shrink {
+        max-width: 388px;
+    }
+    /*Step Two*/
+    .user_type_choose {
+        padding-bottom: 20px;
+    }
+    .user_type_choose.utypeInf {
+        padding-left: 20px;
+        background-size: 45px;
+    }
+    .user_type_choose.utypeAdv {
+        padding-right: 20px;
+        background-size: 45px;
+    }
+    .user_type_desc {
+        font-size: 14px;
+        padding-bottom: 50px;
+        min-height: 310px;
+    }
+    .utypettle {font-size: 15px;}
+    .utypelist > li {padding-left: 20px;}
+    .utypelist > li:before {
+        font-size: 10px;
+        width: 12px;
+        padding: 3px 0;
+    }
+    .user_type_img {height: 340px;}
+    .utypebtn {margin-top: 20px;}
+}
+@media (max-width: 767px) {
+    /*Step One*/
+    .user_wtrend, .dashboard_body ul.wtrend_ctg_list {
+        padding: 15px;
+    }
+    .wtrend_ctg_list.shrink {
+        width: auto;
+        max-width: 306px;
+    }
+    .seealltrnd {
+        text-align: center;
+    }
+    /*Step Two*/
+
+    .user_type_box .row > div[class*="col"]:nth-of-type(odd) {padding-right: 15px;}
+    .user_type_box .row > div[class*="col"]:nth-of-type(even) {padding-left: 15px;}
+    .user_type_choose {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: 500px;
+        margin: auto;
+    }
+    .user_type_choose.utypeAdv, .user_type_choose.utypeInf {
+        padding-right: 0;
+        padding-left: 0;
+        background: none;
+    }
+
+    .adv_wcarrow, .inf_wcarrow {background-size: cover;}
+    .user_type_choose.right .row > div[class*="col"] {float: none;}
+    .user_type_img {
+        height: 260px;
+        width: 260px;
+        margin: 0 auto;
+    }
+    .user_type_desc {
+        padding: 20px 0;
+        font-size: 14px;
+        min-height: 0;
+    }
+    .dashboard_body ul.utypelist {
+        margin-bottom: 30px;
+    }
+    .utypelist > li {padding-left: 18px;}
+    .utypelist > li:not(:nth-last-of-type(1)) {margin-bottom: 5px}
+    .utypelist > li:before {
+        font-size: 9px;
+        width: 9px;
+        padding: 4px 0;
+    }
+    .utypettle {font-size: 18px;}
+    .utypebtn {
+        position: static;
+    }
+}
